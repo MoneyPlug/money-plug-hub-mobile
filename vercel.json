@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm ci",
+  "env": {
+    "NOTION_API_TOKEN": "@notion_api_token"
+  },
+  "regions": ["iad1"],
+  "functions": {
+    "app/api/**": {
+      "maxDuration": 60
+    }
+  }
+}
