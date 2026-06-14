@@ -763,5 +763,7 @@ ntn workers env pull
 ## Learn more
 
 Read the full [Workers documentation](https://developers.notion.com/workers/get-started/overview) or join the [Notion Dev Slack](https://join.slack.com/t/notiondevs/shared_invite/zt-3u9oid9q8-HLUBmMVWYK~g9HFo4U4raA).
-#   m o n e y - p l u g - h u b - m o b i l e  
+#   m o n e y - p l u g - h u b - m o b i l e 
  
+ npm i -g vercel
+npm i -g vercel

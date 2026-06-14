@@ -6,7 +6,6 @@ Follow these steps to connect this repository to Vercel and enable deployments.
 - **Build command:** `npm run build`
 - **Output directory:** `dist`
 - **Environment variable:** Add `NOTION_API_TOKEN` in the Vercel Project Settings (Environment Variables) for production and preview deployments.
-- **Quick CLI deploy:**
 
 ```bash
 npm install -g vercel
@@ -25,3 +24,4 @@ To automatically deploy on push, add these repository secrets in GitHub Settings
 - `VERCEL_PROJECT_ID` — your Vercel Project ID (found in project settings)
 
 A GitHub Actions workflow is included at `.github/workflows/vercel-deploy.yml` which builds and deploys on pushes to `main`/`master`.
+
